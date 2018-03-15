@@ -44,6 +44,14 @@ The following are the features that have been promoted in this Gradle release.
 
 See [javadocs](https://docs.gradle.org/current/javadoc/org/gradle/api/Project.html#findProperty-java.lang.String-) for details
 
+### GroovyCompileOptions
+
+The following Groovy compile options have been promoted:
+
+- [configurationScript](https://docs.gradle.org/current/javadoc/org/gradle/api/tasks/compile/GroovyCompileOptions.html#getConfigurationScript--)
+- [javaAnnotationProcessing](https://docs.gradle.org/current/javadoc/org/gradle/api/tasks/compile/GroovyCompileOptions.html#isJavaAnnotationProcessing--)
+- [fileExtensions](https://docs.gradle.org/current/javadoc/org/gradle/api/tasks/compile/GroovyCompileOptions.html#getFileExtensions--)
+
 ## Fixed issues
 
 ## Deprecations
